@@ -1,0 +1,19 @@
+{
+  "name": "Basecamp Ping Reply",
+  "version": "1.0.0",
+  "description": "This extension adds a reply button to each ping message.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.basecamp.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab", "https://*.basecamp.com/*", "tabs", "webRequest"]
+}

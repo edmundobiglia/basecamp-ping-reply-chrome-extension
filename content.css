@@ -1,0 +1,24 @@
+.chat-line__reply-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px;
+  margin: 0;
+  line-height: 0;
+  border: 0;
+  background: none;
+}
+
+.chat-line__reply-button svg {
+  fill: #3194b3;
+  pointer-events: none;
+}
+
+.chat-line__reply-button:hover svg {
+  fill: #257d97;
+}
+
+.chat-line__bubble {
+  padding-right: 24px !important;
+  position: relative !important;
+}
