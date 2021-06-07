@@ -41,7 +41,7 @@ function addReplyButton() {
         messageEditor.innerHTML = `<blockquote>${name} [${dateTime.slice(
           0,
           -3
-        )}] - ${message}<br>❯ </blockquote>`;
+        )}] - ${message}<br>↳ </blockquote>`;
 
         setTimeout(() => {
           messageEditor.focus();
