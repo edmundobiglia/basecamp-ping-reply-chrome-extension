@@ -1,3 +1,3 @@
 # Basecamp Ping Reply
 
-An extension that allows you to reply to Ping messages on Basecamp.
+An extension that adds a reply button to Ping messages on Basecamp.
