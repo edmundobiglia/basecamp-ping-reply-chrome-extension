@@ -1,7 +1,7 @@
 {
-  "name": "Basecamp Ping Reply",
+  "name": "Basecamp Reply",
   "version": "1.0.0",
-  "description": "This extension adds a reply button to each ping message.",
+  "description": "This extension adds a reply button to Ping and Campfire messages.",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
